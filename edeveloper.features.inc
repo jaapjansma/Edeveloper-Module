@@ -56,6 +56,30 @@ function edeveloper_node_info() {
       'title_label' => t('Auteur'),
       'help' => '',
     ),
+    'expertise' => array(
+      'name' => t('Expertise'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Expertise'),
+      'help' => '',
+    ),
+    'page' => array(
+      'name' => t('Pagina'),
+      'base' => 'node_content',
+      'description' => t('Standaard pagina voor statische informatie'),
+      'has_title' => '1',
+      'title_label' => t('Titel'),
+      'help' => '',
+    ),
+    'wist_je_dat' => array(
+      'name' => t('Wist je dat'),
+      'base' => 'node_content',
+      'description' => t('Wist-je-datjes'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
   );
   return $items;
 }
